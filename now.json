@@ -1,4 +1,5 @@
 {
-  "name": "next-auth",
-  "alias": "next-auth.now.sh"
+	"name": "next-auth",
+	"alias": "next-auth.now.sh",
+	"files": ["_", "components", "pages", "static", "store", ".babelrc", ".env", "env-config.js", "next.config.js", "server.es5.js"]
 }
