@@ -13,6 +13,9 @@ export function refreshSession(session) {
 			}
 		});
 	}
+	if (window.session === undefined && typeof session === "object") {
+		window.session = session;
+	}
 }
 export function destroySession(session) {
 	window.session = undefined;
