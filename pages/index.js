@@ -24,7 +24,7 @@ export default class extends Component {
         <div class="main">
           <div class="middle">
             <div class="logo">
-              <img class="react" src="http://res.cloudinary.com/dxv8p5zck/image/upload/q_auto/v1509884815/react-logo_zu3var_ttoyq3.png" />
+              <img class="react" src="https://res.cloudinary.com/dxv8p5zck/image/upload/q_auto/v1509884815/react-logo_zu3var_ttoyq3.png" />
             </div>
             <div class="form">
               <Provider store={this.store}>
