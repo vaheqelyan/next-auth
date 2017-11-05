@@ -3,32 +3,17 @@ import Link from "next/link";
 const Footer = () => (
   <div class="footer">
     <div class="star-project">
-      <a
-        class="github-button"
-        href="https://github.com/vaheqelyan/rinterest"
-        data-icon="octicon-star"
-        data-show-count="true"
-        aria-label="Star vaheqelyan/rinterest on GitHub"
-      >
+      <a class="github-button" href="https://github.com/vaheqelyan/next-auth/">
         Star
       </a>
     </div>
     <div class="follow-me">
-      <a
-        class="github-button"
-        href="https://github.com/vaheqelyan"
-        aria-label="Follow @vaheqelyan on GitHub"
-      >
+      <a class="github-button" href="https://github.com/vaheqelyan">
         Follow @vaheqelyan
       </a>
     </div>
     <div class="download">
-      <a
-        class="github-button"
-        href="https://github.com/vaheqelyan/rinterest/archive/master.zip"
-        data-icon="octicon-cloud-download"
-        aria-label="Download vaheqelyan/rinterest on GitHub"
-      >
+      <a class="github-button" href="https://github.com/vaheqelyan/next-auth/archive/master.zip">
         Download
       </a>
     </div>
@@ -38,7 +23,7 @@ const Footer = () => (
       </Link>
     </div>
 
-    <div class="view-on-github">
+    <div class="view-on-github" onClick={() => window.open("https://github.com/vaheqelyan/next-auth")}>
       View on Github
       <span class="pt-icon-standard pt-icon-git-repo" />
     </div>
