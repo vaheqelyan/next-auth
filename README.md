@@ -4,6 +4,8 @@
 
 ### Getting started
 
+demo at <a href="https://next-auth.now.sh/">https://next-auth.now.sh/</a>
+
 Clone the repo
 ```code
 git clone https://github.com/vaheqelyan/next-auth.git
