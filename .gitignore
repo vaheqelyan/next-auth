@@ -1,6 +1,14 @@
 # Next.js dist folder
 .next/
 
+# Sass output
+
+static/stylesheet/
+
+# Image optimization
+
+static/images/
+
 # Babel output
 server.es5.js
 
