@@ -1,0 +1,40 @@
+@import "susy";
+
+.footer {
+  @include container;
+  @include span(6 of 12);
+  @include squish(1,0);
+  @include bleed-y(2em 2em);
+  @include pad(2em 2em);
+  margin-top: gutter(2em);
+  background: transparent;
+  border-bottom: 1px solid rgba(212, 212, 212, 0.52);
+
+  .star-project {
+    float: left;
+    margin-left: 20px;
+  }
+
+  .view-on-github {
+    float: right;
+    cursor: pointer;
+    span {
+      margin-left: 10px;
+    }
+  }
+
+  .follow-me {
+    float: left;
+    margin-left: 20px;
+  }
+  .download {
+    float: left;
+    margin-left: 20px;
+  }
+
+  .idea {
+    cursor: pointer;
+    float: left;
+    margin-left: 20px;
+  }
+}

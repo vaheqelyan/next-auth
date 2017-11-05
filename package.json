@@ -1,0 +1,47 @@
+{
+    "name": "next-auth",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "npm run babel && node server.es5",
+        "build": "next build",
+        "start": "NODE_ENV=production node server.es5.js",
+        "babel": "babel --no-babelrc server.js --out-file server.es5.js --presets=es2015 --plugins=syntax-async-functions,transform-regenerator",
+        "public": "now --public"
+    },
+    "dependencies": {
+        "axios": "^0.16.2",
+        "babel-cli": "^6.26.0",
+        "body-parser": "^1.18.2",
+        "cookie-session": "^2.0.0-beta.3",
+        "dotenv": "^4.0.0",
+        "express": "^4.14.0",
+        "mobx": "^3.3.1",
+        "mobx-react": "^4.3.3",
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-google-login": "^3.0.1",
+        "react-placeholder": "^1.0.8"
+    },
+    "devDependencies": {
+        "babel-plugin-react-html-attrs": "^2.0.0",
+        "babel-plugin-syntax-async-functions": "latest",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4",
+        "babel-plugin-transform-define": "^1.3.0",
+        "babel-plugin-transform-regenerator": "latest",
+        "babel-polyfill": "latest",
+        "babel-preset-es2015": "latest",
+        "babel-preset-react-optimize": "^1.0.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "css-loader": "^0.28.7",
+        "gulp": "^3.9.1",
+        "gulp-imagemin": "^3.4.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglifycss": "^1.0.8",
+        "node-sass": "^4.5.3",
+        "raw-loader": "^0.5.1",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.19.0",
+        "susy": "^2.2.12"
+    }
+}

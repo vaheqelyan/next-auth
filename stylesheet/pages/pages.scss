@@ -1,0 +1,29 @@
+@import "susy";
+
+@import "../normalize/normalize";
+@import url("https://unpkg.com/@blueprintjs/core@^1.11.0/dist/blueprint.css");
+@import "../components/Ribbon";
+@import "../components/Footer";
+@import "../components/Nav";
+
+.main {
+	@include container;
+	background: transparent;
+
+	.middle {
+		@include span(7 of 13);
+		@include squish(25%);
+		@include pad(1%);
+		@include bleed-y(2em 0.5em);
+		background: transparent;
+		margin-top: gutter();
+		h3 {
+			margin-bottom: 20px;
+			text-decoration: underline;
+		}
+	}
+}
+
+.css-center {
+	text-align: center;
+}

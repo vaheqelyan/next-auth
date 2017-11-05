@@ -1,0 +1,19 @@
+@import "susy";
+
+.nav {
+	@include span(7 of 13);
+	@include squish(25%);
+	@include pad(1%);
+	@include bleed-y(1em 0.5em);
+	margin-top: 10px;
+	background: transparent;
+
+	.try-link {
+		float: right;
+		margin-left: 10px;
+	}
+
+	a {
+		display: inline-block;
+	}
+}

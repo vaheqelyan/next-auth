@@ -1,0 +1,42 @@
+@import "susy";
+@import "../components/Card";
+@import "../normalize/normalize";
+@import url("https://unpkg.com/@blueprintjs/core@^1.11.0/dist/blueprint.css");
+@import "../components/react-placeholder";
+@import "../components/Ribbon";
+@import "../components/Footer";
+
+.pt-form-content {
+    margin-top: 10px;
+}
+
+.main {
+    @include container;
+    background: transparent;
+
+    .middle {
+        @include span(3 of 12);
+        @include squish(40%);
+        @include pad(1%);
+        @include bleed-y(2em 1em);
+        background: transparent;
+        box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1),
+            0 0 0 rgba(16, 22, 26, 0), 0 1px 1px rgba(16, 22, 26, 0.2);
+        margin-top: gutter();
+        margin-bottom: gutter();
+
+        .logo {
+            @include span(3 of 3);
+            text-align: center;
+            background: transparent;
+        }
+
+        .form {
+            @include span(3 of 3);
+        }
+    }
+}
+
+.css-center {
+    text-align: center;
+}

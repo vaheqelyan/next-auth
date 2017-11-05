@@ -1,0 +1,65 @@
+section {
+  margin-top: 20px;
+}
+
+.round-shape {
+  display: inline-block;
+}
+
+.card_avatar {
+  text-align: center;
+  img {
+    box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 0 0 rgba(16, 22, 26, 0),
+      0 1px 1px rgba(16, 22, 26, 0.2);
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.child-margin-center > div {
+  margin: 0 auto;
+}
+
+.card_fullname {
+  margin-top: 20px;
+  font-size: 30px;
+  max-width: 400px;
+  width: auto;
+  word-break: break-all;
+  text-align: center;
+}
+
+.card_describe {
+  margin-top: 20px;
+  max-width: 400px;
+  word-break: break-all;
+  p {
+    text-align: center;
+  }
+}
+
+.card_email {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.give-style {
+  width: 200px !important;
+  height: 200px !important;
+  box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 0 0 rgba(16, 22, 26, 0),
+    0 1px 1px rgba(16, 22, 26, 0.2);
+}
+
+.card_logout {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.react {
+  width: 50px;
+  background: black;
+  border-radius: 3px;
+  padding: 3px;
+}
