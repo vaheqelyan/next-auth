@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "npm run babel && node server.es5",
         "build": "next build",
-        "start": "NODE_ENV=production node server.es5.js",
+        "start": "NODE_ENV=production SECRET=asfasdf node server.es5.js",
         "babel": "babel --no-babelrc server.js --out-file server.es5.js --presets=es2015 --plugins=syntax-async-functions,transform-regenerator",
         "public": "now --public"
     },
