@@ -151,7 +151,7 @@ export default class extends Component {
             <p>We store our session in the global variable, not in localStorage, but we will talk about it later.</p>
             <p>This function returns whether we have session or not</p>
             <video autoPlay loop>
-              <source src="http://res.cloudinary.com/dxv8p5zck/image/upload/v1509884819/ezgif-4-21cbaf7bfd_qszzq2.mp4" />
+              <source src="https://res.cloudinary.com/dxv8p5zck/image/upload/v1509884819/ezgif-4-21cbaf7bfd_qszzq2.mp4" />
             </video>
             <p>I made a small mixin which we attach to the classes pages using decorators</p>
             <pre>{code3}</pre>
@@ -167,7 +167,7 @@ export default class extends Component {
             To save a global variable (<code>window.session</code>, or simply <code>session</code>) and do not lose it, you need to recreate it every time when the page is ready, we will use the{" "}
             <code>componentDidMount</code> lifecycle of the component Our global variable is retained during the navigation through the pages.
             <video autoPlay loop>
-              <source src="http://res.cloudinary.com/dxv8p5zck/image/upload/q_auto/v1509884822/ezgif-4-07005d392d_g5uwuw.mp4" />
+              <source src="https://res.cloudinary.com/dxv8p5zck/image/upload/q_auto/v1509884822/ezgif-4-07005d392d_g5uwuw.mp4" />
             </video>
             <p>Why data is stored in a global variable, not local storage</p>
             <p>I think the idea of storing in a global variable is a bit more simple and safe</p>
@@ -176,7 +176,7 @@ export default class extends Component {
             <pre>{code7}</pre>
             <p>What will happen and what we fixed ? Before I explain let me give an example</p>
             <video autoPlay loop>
-              <source src="http://res.cloudinary.com/dxv8p5zck/image/upload/v1509884826/ezgif-4-b9eb0c214f_u43dvk.mp4" type="video/mp4" />
+              <source src="https://res.cloudinary.com/dxv8p5zck/image/upload/v1509884826/ezgif-4-b9eb0c214f_u43dvk.mp4" type="video/mp4" />
             </video>
             <p>Anyone can open the console and play with a global variable, to avoid this we use the getter/setter.</p>
             <p>If you delete a global variable as the page will know whether there is a session or not.</p>
