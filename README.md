@@ -1,5 +1,7 @@
 # next-auth
 
+<img src="https://res.cloudinary.com/dxv8p5zck/video/upload/c_scale,h_576/v1509898110/ice_video_20171105-195717_mexbjq.gif"/>
+
 ### Getting started
 
 Clone the repo
