@@ -123,6 +123,9 @@ export function refreshSession(session) {
       }
     });
   }
+  if (window.session === undefined && typeof session === "object") {
+    window.session = session;
+  }
 }
 `;
 
