@@ -2,11 +2,12 @@
     "name": "next-auth",
     "version": "1.0.0",
     "scripts": {
-        "dev": "npm run babel && node server.es5",
         "build": "next build",
-        "start": "NODE_ENV=production SECRET=asfasdf node server.es5.js",
+        "gulp": "gulp sass && gulp optimize",
+        "start": "concurrently \"npm run babel\" \"gulp\" \"NODE_ENV=production node server.es5\"",
         "babel": "babel --no-babelrc server.js --out-file server.es5.js --presets=es2015 --plugins=syntax-async-functions,transform-regenerator",
-        "public": "now --public"
+        "public": "now --public",
+        "dev": "concurrently \"npm run babel\" \"node server.es5\""
     },
     "dependencies": {
         "axios": "^0.16.2",
@@ -33,6 +34,7 @@
         "babel-preset-es2015": "latest",
         "babel-preset-react-optimize": "^1.0.1",
         "babel-preset-stage-0": "^6.24.1",
+        "concurrently": "^3.5.0",
         "css-loader": "^0.28.7",
         "gulp": "^3.9.1",
         "gulp-imagemin": "^3.4.0",
